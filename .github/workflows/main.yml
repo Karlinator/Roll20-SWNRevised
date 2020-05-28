@@ -25,8 +25,9 @@ jobs:
       uses: andstor/copycat-action@v3
       with:
         personal_token: ${{ secrets.PERSONAL_TOKEN }}
-        src_path: /
-        exclude: "LICENCE,.gitignore,.github"
+        src_path: /.
+        exclude: "LICENCE,.gitignore,.github/*"
         dst_path: /Stars_Without_Number_Revised/
         dst_owner: Karlinator
         dst_repo_name: roll20-character-sheets
+        dst_branch: copycat-testing
