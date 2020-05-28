@@ -31,3 +31,4 @@ jobs:
         dst_owner: Karlinator
         dst_repo_name: roll20-character-sheets
         dst_branch: copycat-testing
+        commit_message: Updating from external repo
