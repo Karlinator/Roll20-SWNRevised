@@ -24,7 +24,7 @@ jobs:
     - name: Copy
       uses: andstor/copycat-action@v3
       with:
-        personal_token: ${{ secrets.GITHUB_TOKEN }}
+        personal_token: ${{ secrets.PERSONAL_TOKEN }}
         src_path: /.
         exclude: .github/*
         dst_path: /Stars_Without_Number_Revised/
