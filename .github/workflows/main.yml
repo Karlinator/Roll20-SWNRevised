@@ -26,7 +26,7 @@ jobs:
       with:
         personal_token: ${{ secrets.PERSONAL_TOKEN }}
         src_path: /.
-        filter: "**/!(.github/*)"
+        filter: \**/!(.github/*)
         exclude: LICENCE
         dst_path: /Stars_Without_Number_Revised/
         dst_owner: Karlinator
