@@ -26,9 +26,9 @@ jobs:
       with:
         personal_token: ${{ secrets.PERSONAL_TOKEN }}
         src_path: /.
-        filter: "!(.github/*|*/LICENSE|*/.gitignore)"
+        filter: "(.github/*|*/LICENSE|*/.gitignore)"
         dst_path: /Stars_Without_Number_Revised/
         dst_owner: Karlinator
         dst_repo_name: roll20-character-sheets
-        dst_branch: master
+        dst_branch: copycat-testing
         commit_message: Updating from external repo
